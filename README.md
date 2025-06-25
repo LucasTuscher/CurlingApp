@@ -20,9 +20,8 @@ Das Spiel verwendet einfache Physik und Maus- bzw. Touch-Steuerung. Weitere Spie
 - `lwjgl3`: Desktop-Version (Windows, Linux, macOS)  
 - `android`: Android-Version (benötigt Android SDK)
 
-## Projekt ausführen
+## Screenshot
 
-### Desktop starten (LWJGL3)
+Hier ist ein Beispielbild aus dem Spiel:
 
-```bash
-./gradlew lwjgl3:run
+![Ingame Screenshot](assets/screenshots/ingame.png)
