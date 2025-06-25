@@ -24,4 +24,5 @@ Das Spiel verwendet einfache Physik und Maus- bzw. Touch-Steuerung. Weitere Spie
 
 Hier ist ein Beispielbild aus dem Spiel:
 
-![Ingame Screenshot](assets/screenshots/ingame.png)
+![Ingame Screenshot](assets/screenshots/ingame.png){ width=300px }
+
