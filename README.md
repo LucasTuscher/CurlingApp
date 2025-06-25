@@ -1,35 +1,28 @@
 # CurlingApp
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+CurlingApp ist ein Curling-Spiel, das in Java mit dem Framework [libGDX](https://libgdx.com/) entwickelt wurde.  
+Es wurde mit dem Projektgenerator [gdx-liftoff](https://github.com/libgdx/gdx-liftoff) erstellt und dient als Grundlage für ein physikbasiertes Sportspiel im Stil von Curling.
 
-This project was generated with a template including simple application launchers and an `ApplicationAdapter` extension that draws libGDX logo.
+## Über das Spiel
 
-## Platforms
+CurlingApp simuliert das Wintersportspiel Curling. Der Spieler kann Steine über das Eis gleiten lassen, mit dem Ziel, sie möglichst nahe an das Zentrum des Hauses zu bringen.  
+Das Spiel verwendet einfache Physik und Maus- bzw. Touch-Steuerung. Weitere Spielfunktionen sind geplant.
 
-- `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
-- `android`: Android mobile platform. Needs Android SDK.
+## Technologien
 
-## Gradle
+- Programmiersprache: Java  
+- Framework: libGDX (für plattformübergreifende Spieleentwicklung)  
+- Build-System: Gradle
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
+## Plattformen
 
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `android:lint`: performs Android project validation.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
-- `lwjgl3:run`: starts the application.
-- `test`: runs unit tests (if any).
+- `core`: Gemeinsame Spiellogik für alle Plattformen  
+- `lwjgl3`: Desktop-Version (Windows, Linux, macOS)  
+- `android`: Android-Version (benötigt Android SDK)
 
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+## Projekt ausführen
+
+### Desktop starten (LWJGL3)
+
+```bash
+./gradlew lwjgl3:run
