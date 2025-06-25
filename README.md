@@ -20,9 +20,9 @@ Das Spiel verwendet einfache Physik und Maus- bzw. Touch-Steuerung. Weitere Spie
 - `lwjgl3`: Desktop-Version (Windows, Linux, macOS)  
 - `android`: Android-Version (benötigt Android SDK)
 
+
 ## Screenshot
 
-Hier ist ein Beispielbild aus dem Spiel:
+<img src="assets/screenshots/ingame.png" width="400" alt="Ingame Screenshot">
 
-![Ingame Screenshot](assets/screenshots/ingame.png){ width=300px }
 
